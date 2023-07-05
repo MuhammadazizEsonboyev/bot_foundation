@@ -8,7 +8,7 @@ bot.on("message", (msg) => {
     const minute = date.getMinutes()
     if(msg.text === "/start"){
         bot.sendMessage(chatId, "👋Salom " + msg.chat.first_name)
-        bot.sendMessage(chatId, "Hozir soat " + hour + " : " + minute)
+        bot.sendMessage("@Foundation_05", "👋Salom " + msg.chat.first_name)
     }
 })
 
